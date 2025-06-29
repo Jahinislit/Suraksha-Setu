@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "DisasterReportApp",
-    "slug": "DisasterReportApp",
+    "name": "Suraksha Setu",
+    "slug": "suraksha-setu",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.jahin_halder.DisasterReportApp"
     },
     "web": {
       "bundler": "metro",
@@ -28,15 +29,22 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/logo.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#1e40af"
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "71e87545-9c8c-4385-a50f-8eaf0a241da4"
+      }
+    },
+    "owner": "jahin_halder"
   }
 }
