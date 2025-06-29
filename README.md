@@ -1,5 +1,5 @@
 
-# 📱 Disaster Report App
+# 📱 Suraksha Setu App
 
 A modern, cross-platform React Native app (built with **Expo**) to **report, track, and manage disaster incidents** with optional photo and location sharing. Includes **Emergency SOS**, **My Reports history**, and **offline storage** using `AsyncStorage`.
 
@@ -57,6 +57,11 @@ npx expo start
 
 ---
 
+## Direct APK Install:
+
+Open this link to download the APK file: https://expo.dev/accounts/jahin_halder/projects/suraksha-setu/builds/a8d6c176-65a6-4361-b40a-2f630afc44a8
+
+
 ## 🗂️ Folder Structure
 
 ```
@@ -97,16 +102,7 @@ export const supabase = createClient(
 
 ---
 
-## 📸 Screenshots
 
-> Add screenshots of:
-> - Home screen
-> - Report Disaster form
-> - Emergency SOS screen
-> - My Reports list
-> - Help accordion
-
----
 
 ## ✨ Future Improvements
 
